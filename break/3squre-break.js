@@ -3,11 +3,14 @@ Write a loop that goes from 1 to 100, but stops (using break) when it encounters
 */
 
 let num = 1;
-let square;
+let rooted;
 while (num <= 100) {
-    square = num * num
-    if (square) {
-        break
+    rooted = Math.sqrt(num)
+    if (num != 1) {
+        if (Number.isInteger(rooted)) {
+            console.log('firstrooted Number: ', num);
+            break;
+        }
     }
     console.log(num);
     num++
