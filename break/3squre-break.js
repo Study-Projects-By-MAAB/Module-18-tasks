@@ -8,7 +8,7 @@ while (num <= 100) {
     rooted = Math.sqrt(num)
     if (num != 1) {
         if (Number.isInteger(rooted)) {
-            console.log('firstSquare Number: ', num);
+            console.log('First Square Number: ', num);
             break;
         }
     }
